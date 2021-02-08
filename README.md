@@ -1,12 +1,12 @@
 # Welcome to UAE HUB
-A private community for UAE Startups, Investors and Talentsfiles.
+A private community for UAE Startups, Investors and Talents.
 
 ## What is UAE Hub Community ?
 
-A private slack community tailored to the needs of growth startups. It is for serious business owners, investors and talents who want meet in one place, get to know each other, share common ideas, thoughts and find solutions which help their professions. 
+A private slack community tailored to the needs of growth startups. It is for serious business owners, investors and talents who want meet in one place, get to know each other, share common ideas, thoughts and find solutions which help their professions.
 
 
-## The UAE Hub platform 
+## The UAE Hub platform
 
 We are building the platform to help each other and support same great cause, make products and services helps wider communities and business. Our needs, inputs, ideas and thoughts that we share privately on UAE Hub Slack community would be the building blocks to create the platform.
 
