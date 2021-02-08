@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Welcome to UAE HUB
+A private community for UAE Startups, Investors and Talentsfiles.
 
-You can use the [editor on GitHub](https://github.com/AhmedNadar/uaehub/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## What is UAE Hub Community ?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A private slack community tailored to the needs of growth startups. It is for serious business owners, investors and talents who want meet in one place, get to know each other, share common ideas, thoughts and find solutions which help their professions. 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## The UAE Hub platform 
 
-```markdown
-Syntax highlighted code block
+We are building the platform to help each other and support same great cause, make products and services helps wider communities and business. Our needs, inputs, ideas and thoughts that we share privately on UAE Hub Slack community would be the building blocks to create the platform.
 
-# Header 1
-## Header 2
-### Header 3
+The UAE Hub is a free-of-charge community platform tailored to the needs of growth startups. The UAE Hub gives an overview of the UAE startup community by providing visibility to startups across all emirates and MENA (Middle East and North Africa). Via the platform (we build), startups can get assistance with their recruitment of talent as well as connection with investors.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Who would benefit from UAE Hub platform?
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AhmedNadar/uaehub/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The UAE Hub has three main target groups:
+- the first one being growth startups based in the above-mentioned areas, who are facing various challenges related to scalability. These challenges can be related to recruitment, funding or other insights. As a startup, you might be looking to expand your team in order to build or scale, looking for funding, or being in the need of best practice tools such as a pitch deck or employment contract. UAE Hub platform has gathered the solutions to those challenges and more importantly made them accessible.
+- The second main target group is applicants who want to join a startup. It is those who are already a part of the startup ecosystem, students with the dream of becoming entrepreneurs, employees in larger organizations, or anyone else wanting to be part of a startup journey.
+- The third target group is investors interested in growth startups. It is those who are looking to invest in the next big unicorn e.g. venture capital funds, angels, accelerators and incubators. BIUAE has assembled these and given them visibility towards growth startups who are looking for funding. BIUAE is private place to use for all three groups; startups, applicants and investors.
