@@ -30,7 +30,7 @@
             padding: 6px;
             border-top: 1px solid #efefef;
             border-left: 1px solid #efefef;
-            background: #fff;
+            background: #f8fafc;
             color: #6f6f6f;
             text-decoration: none;
         }
@@ -66,100 +66,100 @@
 
 </head>
 
-<body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+<body class="leading-normal tracking-normal text-gray-700 gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <a target="_blank" rel="noopener" class="made-by" href="http://www.ahmednadar.com/"><img src="ahmed-nadar.png">
         <p>by Ahmed Nadar</p>
     </a>
     <!--Nav-->
-    <nav id="header" class="fixed w-full z-30 top-0 text-white">
-        <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
-            <div class="pl-4 flex items-center">
-                <a class="toggleColour text-white no-underline hover:no-underline font-medium text-2xl lg:text-4xl" href="index.html">
+    <nav id="header" class="fixed top-0 z-30 w-full text-white">
+        <div class="container flex flex-wrap items-center justify-between w-full py-2 mx-auto mt-0">
+            <div class="flex items-center pl-4">
+                <a class="text-2xl font-medium text-white no-underline toggleColour hover:no-underline lg:text-4xl" href="index.html">
                     <!--Icon from: http://www.potlabicons.com/ -->
                     <svg class="w-14 h-14" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
-                    </svg> UAE Hub
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+										</svg> UAE Hub
                 </a>
             </div>
-            <div class="block lg:hidden pr-4">
-                <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
+            <div class="block pr-4 lg:hidden">
+                <button id="nav-toggle" class="flex items-center p-1 text-pink-800 transition duration-300 ease-in-out transform hover:text-gray-900 focus:outline-none focus:shadow-outline hover:scale-105">
+						<svg class="w-6 h-6 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+							<title>Menu</title>
+							<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+						</svg>
+					</button>
             </div>
-            <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-                <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <div class="z-20 flex-grow hidden w-full p-4 mt-2 text-black bg-white lg:flex lg:items-center lg:w-auto lg:mt-0 lg:bg-transparent lg:p-0" id="nav-content">
+                <ul class="items-center justify-end flex-1 list-reset lg:flex">
                     <li class="mr-3">
-                        <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="index.html">About</a>
+                        <a class="inline-block px-4 py-2 font-bold text-black no-underline" href="index.html">About</a>
                     </li>
                 </ul>
-                <a id="navAction" href="request.html" class="cursor-pointer mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Request an invite
-                </a>
+                <a id="navAction" href="request.html" class="px-8 py-4 mx-auto mt-4 font-bold text-gray-800 transition duration-300 ease-in-out transform bg-white rounded-full shadow opacity-75 cursor-pointer lg:mx-0 hover:underline lg:mt-0 focus:outline-none focus:shadow-outline hover:scale-105">
+										Request an invite
+								</a>
             </div>
         </div>
-        <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+        <hr class="py-0 my-0 border-b border-gray-100 opacity-25" />
     </nav>
 
-    <section class="bg-white py-8 mt-28">
-        <div class="container max-w-2xl mx-auto m-8">
+    <section class="py-8 bg-white mt-28">
+        <div class="container max-w-3xl p-4 m-8 mx-auto">
 
-            <p class="text-gray-500 mb-8 text-center text-2xl">
+            <p class="mb-8 text-2xl text-center text-gray-500">
                 Request an invite to
             </p>
-            <h1 class="w-full my-2 text-5xl font-medium leading-tight text-center text-gray-800 mb-4">
+            <h1 class="w-full my-2 mb-4 text-5xl font-medium leading-tight text-center text-gray-800">
                 UAE Startups Private Community
             </h1>
 
             <div class="w-full mb-10">
-                <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                <div class="w-64 h-1 py-0 mx-auto my-0 rounded-t opacity-25 gradient"></div>
             </div>
 
-            <div class="text-gray-500 mb-10">
-                <p class="text-lg text-gray-600 mb-8 w-full my-2 leading-relaxed text-left tracking-wide">
-                    We are a group of people that came together because we realized that in order to success in our businesses, investments and jobs we need to quit thinking about it, and actually work on and do something about it. We realized we can’t do this in isolation.
-                    We need help from other successful startups and individuals.
-                </p>
-                <p class="font-bold mb-8 text-gray-900 my-2 text-2xl">What you get</p>
+            <div class="mb-10">
+                <ul class="mt-4 ml-4 text-lg leading-relaxed">
+                    <li class="mt-1">📜 We believe in making friends, not contacts.</li>
+                    <li class="mt-1">📜 We believe in giving, not taking.</li>
+                    <li class="mt-1">📜 We believe in helping others before helping yourself.</li>
+                </ul>
 
-                <p class="text-lg text-gray-600 mb-4 w-full my-2 leading-relaxed text-left">
-                    Unlike other membership sites, you pay once and get lifetime access to:
-                    <ul>
-                        <li>Slack chat</li>
-                        <li>Forums - Coming after invitation period is over</li>
-                        <li>Member resources (videos, downloads)</li>
-                        <li>Unlimited access, messages, and channels to boost your career and find next investment, and highlight your startup</li>
-                    </ul>
+                <p class="w-full my-2 mt-4 mb-4 text-xl font-semibold leading-relaxed tracking-wide text-gray-900">Our community unlike other membership sites, you pay once and get lifetime access to:</p>
+
+                <p class="text-lg font-semibold">
+                    <img src="slack-logo-icon.png" class="inline-block w-6 h-6 mr-1 -mt-1" alt="slack"> Slack chat,
+                    <img src="forum-icon.png" class="inline-block w-6 h-6 ml-1 mr-1 -mt-1" alt="slack"> Forums and
+                    <img src="resources-icon.png" class="inline-block w-6 h-6 ml-1 mr-1 -mt-1" alt="slack"> Member resources.
+                    <span class="font-normal">These tools are extremely valuable. It would help you grow your career and business.</span>
                 </p>
-                <ul>
+                <ul class="mt-4 ml-4">
                     <li class="mt-2">✅ Learn from skilled makers, business owners, investors & recruiters</li>
-                    <li class="mt-2">✅ Full access to the #jobs to channel to find your next opportunity or find your next hire</li>
-                    <li class="mt-2">✅ Get live feedback and suggestions in our 24/7 community</li>
+                    <li class="mt-2">✅ Have full access to the #jobs channel to find your next opportunity or find your next hire</li>
+                    <li class="mt-2">✅ Share your progress and get live feedback and suggestions in our 24/7 community</li>
+                    <li class="mt-2">✅ Use the private forums to ask questions, and get answers</li>
                     <li class="mt-2">✅ Discover the latest local business news, tools and trends</li>
+                    <li class="mt-2">✅ Use the private Slack as your virtual watercooler:</li>
                     <li class="mt-2">✅ Meet & chat with members in all industries close to you</li>
-                    <li class="mt-2">Note: Everyone is manually vetted to keep the highest quality within the community so the wait time could be up to 3 days after payment.</li>
+                    <li class="mt-2">✅ Have unlimited access, messages, and channels to boost your career and find next investment, and highlight your startup</li>
+                    <li class="hidden mt-2">✏️ <strong>Note:</strong> Everyone is manually vetted to keep the highest quality within the community so the wait time could be up to 3 days after payment.</li>
                 </ul>
             </div>
 
-
-
-            <div class="flex flex-wrap mb-10 bg-white rounded-md rounded-b-none overflow-hidden border-solid border-2 border-light-blue-500 text-center">
+            <div class="flex flex-wrap mb-10 overflow-hidden text-center bg-white border-2 border-solid rounded-md rounded-b-none border-light-blue-500">
                 <div class="w-full p-6">
-                    <h3 class="text-lg text-gray-500 font-bold leading-none mb-6">
+                    <h3 class="mb-6 text-lg font-bold leading-none text-gray-500">
                         Get lifetime access
                     </h3>
-                    <span class="text-5xl text-center font-bold text-gray-700">
-                      AED 329
-                    </span>
-                    <p class="text-gray-500 mb-4 mt-6 text-lg">
-                        Currently is an early stage we before we accept our member’s to join on February 14 ( Valentines' Day 😍, what a better way to celebrate 🤝 ).
-                        <br><br> if you'd like us to send you a reminder when we are ready, just start below...
+                    <span class="text-5xl font-bold text-center text-gray-700">
+											AED 349
+										</span>
+                    <p class="mt-6 mb-4 text-lg text-gray-500">
+                        Currently is an early stage we acceptog before we accept our member’s to join on February 20 🤝
+                        <br>if you'd like us to send you a reminder when we are ready, just start below...
                     </p>
                 </div>
                 <!-- typeform-widget -->
-                <div class="typeform-widget" data-url="https://form.typeform.com/to/CFDvdFhZ?typeform-medium=embed-snippet" style="width: 100%; height: 400px;"></div>
+                <div class="typeform-widget" data-url="https://form.typeform.com/to/CFDvdFhZ?typeform-medium=embed-snippet" style="width: 100%; height: 350px;"></div>
                 <script>
                     (function() {
                         var qs, js, q, s, d = document,
@@ -179,61 +179,55 @@
                 </script>
                 <!-- END typeform-widget -->
             </div>
-
-
-
         </div>
     </section>
 
-
-
-
     <!-- Change the colour #f8fafc to match the previous section colour -->
     <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-          <g class="wave" fill="#f8fafc">
-            <path
-              d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
-            ></path>
-          </g>
-          <g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
-            <g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
-              <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
-              <path
-                d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
-                opacity="0.100000001"
-              ></path>
-              <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
-            </g>
-          </g>
-        </g>
-      </g>
-    </svg>
-    <section class="container mx-auto text-center py-6 mb-12 max-w-5xl mx-auto">
+			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
+					<g class="wave" fill="#f8fafc">
+						<path
+							d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
+						></path>
+					</g>
+					<g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
+						<g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) ">
+							<path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
+							<path
+								d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
+								opacity="0.100000001"
+							></path>
+							<path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path>
+						</g>
+					</g>
+				</g>
+			</g>
+		</svg>
+    <section class="container max-w-5xl py-6 mx-auto mb-12 text-center">
         <div class="flex flex-wrap mb-10">
-            <div class="w-full sm:w-2/5 p-6 flex justify-end">
-                <img class="rounded-full flex items-center justify-center h-200 w-200 z-50 border-gray-200 border" src="ahmed-nadar.png" />
+            <div class="flex justify-end w-full p-6 sm:w-2/5">
+                <img class="z-50 flex items-center justify-center w-auto border border-gray-200 rounded-full h-60" src="ahmed-nadar.png" />
             </div>
-            <div class="w-full sm:w-3/5 p-4">
-                <p class="w-full my-2 text-2xl font-bold leading-relaxed text-white text-left tracking-wide">
-                    Who is behind this?<br> <span class="font-medium">Hi, I’m <a class="underline text-indigo-200" href="http://twitter.com/ahmednadar">Ahmed Nadar</a>, the founder of UAE Hub.</span>
+            <div class="w-full p-4 sm:w-3/5">
+                <p class="w-full my-2 text-2xl font-bold leading-relaxed tracking-wide text-left text-white">
+                    Who is behind this?<br> <span class="font-medium">Hi, I’m <a class="text-indigo-200 underline" href="http://twitter.com/ahmednadar">Ahmed Nadar</a>, the founder of UAE Hub.</span>
                 </p>
-                <p class="w-full my-2 text-lg font-medium leading-relaxed text-white text-left tracking-wide">I'm a designer and developer been working with wide-range of companies since 2010. I have consulted on development, deign and growth for companies in Toronto, New York, Cairo, Doha and UAE.</p>
-                <p class="w-full my-2 font-medium text-gray-300 text-left tracking-wide">Questions? Email me: ahmednadar@gmail.com</p>
+                <p class="w-full my-2 text-lg font-medium leading-relaxed tracking-wide text-left text-white">I'm a designer, developer and consultante, I have been working with wide-range of companies since 2010. I have consulted on development, deign and growth for companies in Toronto, New York, Cairo, Doha and UAE.</p>
+                <p class="w-full my-2 font-medium tracking-wide text-left text-gray-300">Questions? Email me: ahmednadar@gmail.com</p>
             </div>
         </div>
     </section>
     <!--Footer-->
     <footer class="bg-white">
-        <div class="container mx-auto px-8 text-center">
-            <div class="w-full flex flex-col md:flex-row py-6">
+        <div class="container px-8 mx-auto text-center">
+            <div class="flex flex-col w-full py-6 md:flex-row">
                 <div class="flex-1 mb-6 text-black">
-                    <a class="text-pink-600 no-underline hover:no-underline font-medium text-xl lg:text-2xl text-center mx-auto" href="index.html">
+                    <a class="mx-auto text-xl font-medium text-center text-pink-600 no-underline hover:no-underline lg:text-2xl" href="index.html">
                         <!--Icon from: http://www.potlabicons.com/ -->
-                        <svg class="w-14 h-14 text-center mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
-                        </svg> UAE Hub Community
+                        <svg class="mx-auto text-center w-14 h-14" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+												</svg> UAE Hub Community
                     </a>
                 </div>
 
@@ -241,8 +235,8 @@
         </div>
     </footer>
     <!-- jQuery if you need it
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	-->
     <script>
         var scrollpos = window.scrollY;
         var header = document.getElementById("header");
